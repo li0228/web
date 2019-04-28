@@ -1,0 +1,30 @@
+Html:
+
+
+CSS:
+
+
+BootStrap:
+
+
+JavaScript:
+
+
+
+jQuery:
+  1.jQuery有一个appendTo()方法可以把选中的元素加到其他元素中。
+
+  比如，你想让target4从我们的从right-well移到left-well，我们可以这样使用:
+
+  $("#target4").appendTo("#left-well");
+
+  来试着把target2元素从left-well移到right-well中。
+  2.jQuery的clone()方法可以拷贝元素。
+
+  比如，如果我想把target2从left-well拷贝到right-well，我们可以这样写:
+
+  $("#target2").clone().appendTo("#right-well");
+
+  你有没有发现两个jQuery方法合在一起使用了？这就叫方法链function chaining，使用起来很方便。
+
+  复制target5元素追加到left-well。
